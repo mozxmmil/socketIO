@@ -12,6 +12,7 @@ const io = new Server(server, {
 		methods: ["GET", "POST"],
 	},
 });
+console.log("hello");
 console.log(process.env.PORT);
 const port = process.env.PORT || 3002;
 
