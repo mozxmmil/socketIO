@@ -1,7 +1,8 @@
 {
 	"compilerOptions": {
 		"target": "ES2020",
-		"module": "commonjs",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
 		"lib": ["ES2020"],
 		"outDir": "./dist",
 		"rootDir": "./src",
@@ -14,6 +15,6 @@
 		"declarationMap": true,
 		"sourceMap": true
 	},
-	"include": ["src/**/*"],
+	"include": ["src/**/*", "express.d.ts", "prisma/**/*"],
 	"exclude": ["node_modules", "dist"]
 }
